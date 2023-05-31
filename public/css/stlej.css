@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Reset default styles for HTML elements */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ed6161;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  /* Jokes section styles */
+  #jokes {
+    margin-top: 20px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #joke-container {
+    text-align: center;
+  }
+  
+  #joke {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #generate-joke-btn {
+    background-color: #f6bb4d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #generate-joke-btn:hover {
+    background-color: #63d7ee;
+    color: #fff;
+  }
+  
+  /* Add additional styles for other sections as needed */
+  
